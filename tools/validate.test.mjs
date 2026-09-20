@@ -1,4 +1,4 @@
-// `node --test tools/`
+// `node --test "tools/*.test.mjs"`
 import assert from "node:assert/strict";
 import { test } from "node:test";
 import { readFileSync } from "node:fs";
