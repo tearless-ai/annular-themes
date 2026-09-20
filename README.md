@@ -72,9 +72,14 @@ Open a pull request that adds two files:
 
 [CONTRIBUTING.md](CONTRIBUTING.md) has the few rules, and a check runs on every pull request: `node tools/validate.mjs`.
 
+## License
+
+The themes, their pictures, and the check in this repo are under the [MIT License](LICENSE).
+The Annular app is not part of this repo and is not open source.
+
 ## Questions
 
-Annular itself is not open source; this repo is only about themes.
+This repo is only about themes.
 For help with the app, see [annular.app/help](https://annular.app/help) or write to support@annular.app.
 
 Annular is an independent tool and is not affiliated with, endorsed by, or sponsored by Anthropic or OpenAI.
