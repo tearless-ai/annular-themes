@@ -31,9 +31,10 @@ None yet. Yours could be the first: see [Share a theme](#share-a-theme).
 ## Use a theme
 
 1. Download the `.annulartheme` file.
-2. Double-click it. Annular adds the theme and switches to it.
+2. Double-click it. Annular adds the theme, switches to it, and shows it in Settings, Appearance.
 
-You can also open Annular's Settings, go to Appearance, and click Import.
+The double-click needs Annular 1.2.1 or newer.
+In any version you can open Settings, go to Appearance, and click Import.
 
 A theme is only data: colors, names of fonts, numbers, and a few words.
 It cannot run anything, and Annular reads nothing else from the file.
