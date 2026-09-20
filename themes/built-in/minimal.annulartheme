@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 4,
+  "id": "app.annular.minimal",
+  "name": "Minimal",
+  "author": "Annular",
+  "layout": "vertical",
+  "palette": {
+    "background": "#00000000",
+    "border": "#00000000",
+    "track": "#8b95a333",
+    "normal": "#4fc3b8",
+    "warning": "#e8b04b",
+    "critical": "#f0654e",
+    "label": "#e9ecf1",
+    "muted": "#8b95a3",
+    "accent": "#4fc3b8"
+  },
+  "typography": {
+    "display": { "family": "Manrope", "fallbacks": ["Avenir Next", "Helvetica Neue"], "weight": 700, "tracking": -0.01 },
+    "label": { "family": "Manrope", "fallbacks": ["Avenir Next", "Helvetica Neue"], "weight": 700, "tracking": 0.14 },
+    "caption": { "family": "Manrope", "fallbacks": ["Avenir Next", "Helvetica Neue"], "weight": 500 }
+  },
+  "panel": { "material": "none", "cornerRadius": 16, "borderWidth": 0, "shadow": false, "padding": 10, "accent": "none" },
+  "ring": { "diameterRatio": 0.85, "strokeRatio": 0.07, "cap": "round", "segments": 0, "glow": true, "tick": false, "numberPlacement": "inside", "numberColor": "state", "percentSign": false, "numberScale": 0.3 },
+  "labels": { "style": "word", "placement": "none", "uppercase": true, "suffix": "" , "scale": 0.16 },
+  "states": { "staleOpacity": 0.5, "placeholder": "--" },
+  "expanded": { "width": 400, "barHeight": 6, "barCornerRadius": 3, "rowSpacing": 14, "uppercase": true, "headerGlyph": "", "showHeader": false, "showForecast": true, "showFooter": false, "dividers": false, "sparkline": "none", "percentScale": 0.5, "labelScale": 0.18, "captionScale": 0.165, "material": "translucent", "background": "#161920c8" },
+  "menuBar": { "style": "ring", "percentSign": false },
+  "keepAwake": { "visible": true, "shape": "circle", "size": 9 }
+}

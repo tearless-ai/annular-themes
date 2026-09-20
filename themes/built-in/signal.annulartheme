@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 4,
+  "id": "app.annular.signal",
+  "name": "Signal",
+  "author": "Annular",
+  "layout": "vertical",
+  "palette": {
+    "background": "#0b0d10",
+    "border": "#232930",
+    "track": "#232930",
+    "normal": "#35d07f",
+    "warning": "#ffb020",
+    "critical": "#ff4d3d",
+    "label": "#e6eaee",
+    "muted": "#7a8591",
+    "accent": "#35d07f"
+  },
+  "typography": {
+    "display": { "family": "Barlow Condensed", "fallbacks": ["Arial Narrow", "Helvetica Neue"], "weight": 700 },
+    "label": { "family": "Barlow Condensed", "fallbacks": ["Arial Narrow", "Helvetica Neue"], "weight": 600, "tracking": 0.1 },
+    "caption": { "family": "IBM Plex Mono", "fallbacks": ["Menlo"], "weight": 400 }
+  },
+  "panel": { "material": "solid", "cornerRadius": 0, "borderWidth": 1, "shadow": false, "padding": 12, "accent": "statusBar", "accentWidth": 3 },
+  "ring": { "diameterRatio": 0.906, "strokeRatio": 0.138, "cap": "butt", "segments": 30, "segmentGapRatio": 0.26, "glow": false, "tick": false, "numberPlacement": "inside", "numberColor": "label", "percentSign": false, "numberScale": 0.34 },
+  "labels": { "style": "short", "placement": "below", "uppercase": true, "suffix": "" , "scale": 0.17 },
+  "states": { "staleOpacity": 0.5, "placeholder": "--" },
+  "expanded": { "width": 440, "barHeight": 10, "barCornerRadius": 0, "rowSpacing": 12, "uppercase": true, "headerGlyph": "//", "showHeader": true, "showForecast": true, "showFooter": true, "dividers": false, "sparkline": "area", "percentScale": 0.62, "labelScale": 0.2, "captionScale": 0.16 },
+  "menuBar": { "style": "both", "percentSign": false },
+  "keepAwake": { "visible": true, "shape": "square", "size": 10 }
+}

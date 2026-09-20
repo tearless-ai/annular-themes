@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 4,
+  "id": "app.annular.strip",
+  "name": "Strip",
+  "author": "Annular",
+  "layout": "horizontal",
+  "palette": {
+    "background": "#161920b8",
+    "border": "#ffffff14",
+    "track": "#ffffff1a",
+    "normal": "#4fc3b8",
+    "warning": "#e8b04b",
+    "critical": "#f0654e",
+    "label": "#e9ecf1",
+    "muted": "#8b95a3",
+    "accent": "#4fc3b8"
+  },
+  "typography": {
+    "display": {
+      "family": "Manrope",
+      "fallbacks": [
+        "Avenir Next",
+        "Helvetica Neue"
+      ],
+      "weight": 800,
+      "tracking": -0.02
+    },
+    "label": {
+      "family": "Manrope",
+      "fallbacks": [
+        "Avenir Next",
+        "Helvetica Neue"
+      ],
+      "weight": 700,
+      "tracking": 0.14
+    },
+    "caption": {
+      "family": "Manrope",
+      "fallbacks": [
+        "Avenir Next",
+        "Helvetica Neue"
+      ],
+      "weight": 500
+    }
+  },
+  "panel": {
+    "material": "translucent",
+    "cornerRadius": 22,
+    "borderWidth": 1,
+    "shadow": true,
+    "padding": 12,
+    "accent": "none"
+  },
+  "ring": {
+    "diameterRatio": 0.875,
+    "strokeRatio": 0.116,
+    "cap": "round",
+    "segments": 0,
+    "glow": true,
+    "tick": false,
+    "numberPlacement": "inside",
+    "numberColor": "label",
+    "percentSign": false,
+    "numberScale": 0.25
+  },
+  "labels": {
+    "style": "word",
+    "placement": "below",
+    "uppercase": true,
+    "suffix": "",
+    "scale": 0.16
+  },
+  "states": {
+    "staleOpacity": 0.6,
+    "placeholder": "--"
+  },
+  "expanded": {
+    "width": 480,
+    "barHeight": 8,
+    "barCornerRadius": 4,
+    "rowSpacing": 14,
+    "uppercase": true,
+    "headerGlyph": "§",
+    "showHeader": true,
+    "showForecast": true,
+    "showFooter": true,
+    "dividers": true,
+    "sparkline": "line",
+    "percentScale": 0.56,
+    "labelScale": 0.19,
+    "captionScale": 0.165
+  },
+  "menuBar": {
+    "style": "both",
+    "percentSign": true
+  },
+  "keepAwake": {
+    "visible": true,
+    "shape": "rounded",
+    "size": 10
+  }
+}

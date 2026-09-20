@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 4,
+  "id": "app.annular.editorial",
+  "name": "Editorial",
+  "author": "Annular",
+  "layout": "vertical",
+  "palette": {
+    "background": "#f7f4ee",
+    "border": "#d4ccbe",
+    "track": "#d8d1c4",
+    "normal": "#2a2926",
+    "warning": "#b07a12",
+    "critical": "#9a2c1f",
+    "label": "#2a2926",
+    "muted": "#8a8378",
+    "accent": "#9a2c1f"
+  },
+  "typography": {
+    "display": { "family": "Instrument Serif", "fallbacks": ["Georgia", "Times New Roman"], "weight": 400 },
+    "label": { "family": "IBM Plex Sans", "fallbacks": ["Helvetica Neue"], "weight": 600, "tracking": 0.2 },
+    "caption": { "family": "Newsreader", "fallbacks": ["Georgia"], "weight": 400, "italic": true }
+  },
+  "panel": { "material": "solid", "cornerRadius": 4, "borderWidth": 1, "shadow": true, "padding": 16, "accent": "none" },
+  "ring": { "diameterRatio": 1.0, "strokeRatio": 0.031, "trackStrokeRatio": 0.019, "cap": "butt", "segments": 0, "glow": false, "tick": true, "numberPlacement": "inside", "numberColor": "state", "percentSign": false, "numberScale": 0.375 },
+  "labels": { "style": "word", "placement": "below", "uppercase": true, "suffix": "" , "scale": 0.14 },
+  "states": { "staleOpacity": 0.55, "placeholder": "--" },
+  "expanded": { "width": 470, "barHeight": 3, "barCornerRadius": 0, "rowSpacing": 16, "uppercase": true, "headerGlyph": "¶", "showHeader": true, "showForecast": true, "showFooter": true, "dividers": true, "sparkline": "line", "percentScale": 0.62, "labelScale": 0.17, "captionScale": 0.18 },
+  "menuBar": { "style": "percent", "percentSign": true },
+  "keepAwake": { "visible": true, "shape": "square", "size": 9 }
+}
