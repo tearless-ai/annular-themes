@@ -8,12 +8,18 @@ This repo holds the six themes that ship with Annular, themes made by other peop
 
 ## The built-in themes
 
-| | | |
-| :---: | :---: | :---: |
-| <img src="img/annular.png" height="300" alt="The Annular theme: three glowing rings on a translucent panel"> | <img src="img/editorial.png" height="300" alt="The Editorial theme: hairline rings and serif numerals on paper"> | <img src="img/signal.png" height="300" alt="The Signal theme: segmented gauges in green, amber, and red"> |
-| **[Annular](themes/built-in/annular.annulartheme)**<br>The default: glowing arcs on a translucent panel. | **[Editorial](themes/built-in/editorial.annulartheme)**<br>Paper, hairline rings, serif numerals. | **[Signal](themes/built-in/signal.annulartheme)**<br>A segmented gauge in green, amber, and red. |
-| <img src="img/minimal.png" height="300" alt="The Minimal theme: three rings with no panel behind them"> | <img src="img/dial.png" height="200" alt="The Dial theme: one large ring with the others inside it"> | <img src="img/strip.png" height="150" alt="The Strip theme: three rings in a row"> |
-| **[Minimal](themes/built-in/minimal.annulartheme)**<br>No panel. Just the rings on your desktop. | **[Dial](themes/built-in/dial.annulartheme)**<br>One ring for the tightest limit, the others inside it. | **[Strip](themes/built-in/strip.annulartheme)**<br>Three rings in a row along an edge. |
+<table>
+  <tr>
+    <td align="center" width="33%"><img src="img/annular.png" height="300" alt="The Annular theme: three glowing rings on a translucent panel"><br><br><b><a href="themes/built-in/annular.annulartheme">Annular</a></b><br>The default: glowing arcs on a translucent panel.</td>
+    <td align="center" width="33%"><img src="img/editorial.png" height="300" alt="The Editorial theme: hairline rings and serif numerals on paper"><br><br><b><a href="themes/built-in/editorial.annulartheme">Editorial</a></b><br>Paper, hairline rings, serif numerals.</td>
+    <td align="center" width="33%"><img src="img/signal.png" height="300" alt="The Signal theme: segmented gauges in green, amber, and red"><br><br><b><a href="themes/built-in/signal.annulartheme">Signal</a></b><br>A segmented gauge in green, amber, and red.</td>
+  </tr>
+  <tr>
+    <td align="center" width="33%"><img src="img/minimal.png" height="300" alt="The Minimal theme: three rings with no panel behind them"><br><br><b><a href="themes/built-in/minimal.annulartheme">Minimal</a></b><br>No panel. Just the rings on your desktop.</td>
+    <td align="center" width="33%"><img src="img/dial.png" height="200" alt="The Dial theme: one large ring with the others inside it"><br><br><b><a href="themes/built-in/dial.annulartheme">Dial</a></b><br>One ring for the tightest limit, the others inside it.</td>
+    <td align="center" width="33%"><img src="img/strip.png" height="150" alt="The Strip theme: three rings in a row"><br><br><b><a href="themes/built-in/strip.annulartheme">Strip</a></b><br>Three rings in a row along an edge.</td>
+  </tr>
+</table>
 
 These six are already in the app.
 They are here so you can read them, and start your own from one.
